@@ -9,7 +9,7 @@ import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
 public class OpenAPI {
-	final static String KEY="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", //the openAPI key
+	final static String KEY="your key", //the openAPI key
 						URL="https://api.openai.com/v1/completions";
 	JSONObject requestJson = new JSONObject();
 	JSONObject result;
