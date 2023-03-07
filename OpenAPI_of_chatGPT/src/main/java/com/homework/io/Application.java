@@ -75,7 +75,7 @@ public class Application extends JFrame {
 				output.setText(output.getText()+"User:"+question+"\n");
 				result = oa.ask(question);
 				output.setText(output.getText()+"AI:"+result+"\n");
-				ms.send(to, "The result of question:"+question,"You ask:\n"+question+"\nAI's respone:\n"+result+"\n\n\nThis program write by 邱柏翰409280312");
+				ms.send(to, "The result of question:"+question,"You ask:\n"+question+"\nAI's respone:\n"+result);
 			}
 		});
 		button.setFont(new Font("新細明體", Font.PLAIN, 18));
