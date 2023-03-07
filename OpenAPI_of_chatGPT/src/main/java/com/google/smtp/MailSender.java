@@ -12,9 +12,9 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class MailSender {
-	final private static String from="bo120120@gmail.com",
+	final private static String from="",
 								host="smtp.gmail.com",
-								SMTPCODE = "hdcvfzjyjmqfibkq";
+								SMTPCODE = "";
 	private Properties properties;
 	private Session session;
 	private boolean enable = true;//use to avoid exception
