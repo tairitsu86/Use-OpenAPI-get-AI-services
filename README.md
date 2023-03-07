@@ -1,4 +1,4 @@
-# Use-OpenAPI-get-AI-services
+# Use-OpenAPI-get-OpenAI-services
 Need java 8 or newwer.
 Create by Maven and windowBuilder.
 This is my homework, not very good code.
